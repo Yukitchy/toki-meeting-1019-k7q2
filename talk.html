@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="10/19の打ち合わせを、会話の形で読めるように整えた記録。大事なところにマーカー入り。">
+<meta property="og:type" content="article"><meta property="og:title" content="TOKI打ち合わせ 会話の記録"><meta property="og:description" content="10/19の打ち合わせを、会話の形で読めるように整えた記録。大事なところにマーカー入り。">
+<meta property="og:url" content="https://yukitchy.github.io/toki-meeting-1019-k7q2/talk.html"><meta property="og:image" content="https://yukitchy.github.io/toki-meeting-1019-k7q2/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<title>TOKI打ち合わせ 会話の記録</title>
+</head><body>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+/* layout: 1カラムの会話記録。上に要点と引用、その下に章ごとの会話。話者は左の見出し語で区別する */
+:root{--bg:#ffffff;--fg:#1c1b1a;--muted:#6a6662;--line:#e3e0dc;--soft:#f6f4f1;--accent:#d9381e;--accent-fg:#ffffff;--hl:#ffe9a8;--body:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171615;--fg:#efece8;--muted:#a39e98;--line:#34312e;--soft:#211f1d;--accent:#ff6a4d;--accent-fg:#171615;--hl:#5a4a14;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171615;--fg:#efece8;--muted:#a39e98;--line:#34312e;--soft:#211f1d;--accent:#ff6a4d;--accent-fg:#171615;--hl:#5a4a14;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.9}
+.wrap{max-width:760px;margin:0 auto;padding-block:44px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+h1,h2,p,ul{margin:0}ul{padding:0;list-style:none}
+a{color:var(--accent)}a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.back{justify-self:start;display:inline-block;padding:10px 16px;background:var(--accent);color:var(--accent-fg);font-weight:700;font-size:14px;text-decoration:none}
+header{display:grid;gap:10px;border-bottom:4px solid var(--accent);padding-bottom:22px}
+.kicker{font-size:13px;letter-spacing:.12em;color:var(--muted);font-weight:500}
+h1{font-size:clamp(24px,5.2vw,34px);line-height:1.4;font-weight:900;text-wrap:balance}
+.meta{font-size:14px;color:var(--muted)}
+.quote{font-size:clamp(18px,3.4vw,22px);line-height:1.7;font-weight:700;padding:6px 0 6px 18px;border-left:4px solid var(--accent)}
+.take{display:grid;gap:0;border-top:1px solid var(--line)}
+.take li{padding:10px 0;border-bottom:1px solid var(--line)}
+.take li::before{content:"";display:inline-block;width:9px;height:9px;background:var(--accent);margin-right:12px}
+h2{font-size:clamp(19px,3.4vw,23px);line-height:1.45;font-weight:900;margin-top:30px}
+.lead{color:var(--muted);font-size:15px;line-height:1.8;padding:8px 14px;background:var(--soft)}
+.say{display:grid;grid-template-columns:5.2em 1fr;gap:12px}
+.say b{font-size:13.5px;font-weight:700;color:var(--muted);padding-top:.3em}
+.say.me b{color:var(--accent)}
+.say span{min-width:0;overflow-wrap:anywhere}
+mark{background:var(--hl);color:inherit;padding:0 .15em}
+.note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin-top:20px}
+@media (max-width:520px){.say{grid-template-columns:1fr;gap:0}}
+</style>
+<div class="wrap">
+<a class="back" href="./" target="_blank" rel="noopener">← 議事とToDoのまとめページへ</a>
+<header>
+  <p class="kicker">株式会社TOKI様 × AnimeSensei 打ち合わせ</p>
+  <h1>家族に見せる、秋葉原</h1>
+  <p class="meta">2026年10月19日（月）14:00 / Google Meet / 約60分。初めての日本に来る家族5名へ、秋葉原をどう見せるか。手配会社との初回打ち合わせ。</p>
+</header>
+<p class="quote">体験だらけじゃなくて、他の国ではできないことをやりたい。その気持ちが強いんです</p>
+<ul class="take"><li>アニメ好きでない客には、街の背景や経済の話が刺さる</li><li>メイドカフェは直前に説明して選んでもらうと外しにくい</li><li>子連れの食事は、飽きずに歩きながら食べられるものが向く</li><li>客の連絡先を共有しない案件は、手配担当と直接つなぐ</li><li>SNSに上げない客でも、撮った写真の共有は喜ばれる</li></ul>
+<h2>1. 誰の、何の依頼か</h2>
+<p class="lead">2026-10-26(月)の秋葉原ツアーをTOKIから請け負う。その前提のすり合わせ。</p>
+<p class="say other"><b>Aska</b><span>今日はお時間をいただきありがとうございます。株式会社TOKIのAskaです。今回のお客様を担当するKyokoも同席しています。</span></p>
+<p class="say me"><b>ユウキ</b><span>市原ゆうきです。よろしくお願いします。お二人は普段ガイドをされている方ではなく、オペレーターのような立場ですか。</span></p>
+<p class="say other"><b>Kyoko</b><span>私はお客様の側にいます。滞在の最初の日から帰る日まで、ここに泊まってこんなことをしませんか、という旅程を提案して作るのが私の仕事です。Askaさんは主に手配を担当しています。</span></p>
+<p class="say other"><b>Kyoko</b><span>今回は海外から来る5名の家族で、保護者2名と子ども3名、みんな学齢期です。1週間ほど前に突然「日本に行きたい」と言ってきました。秋のこの時期はどこも混んでいて、できることとできないことがあるんですが、その中で組んでいます。初めて来る人がほとんどです。</span></p>
+<p class="say other"><b>Kyoko</b><span>ユウキさんを見つけたのは私です。オタク向けのガイドツアーで検索したら出てきて、Askaさんに手配をお願いしました。TOKIにも東京や秋葉原を案内したガイドは何人もいますが、体験の質が違うなと思っていたんです。<mark>ご本人たちは独立した方々で、自分たちで街を回れます。ただ秋葉原は、視点がないとどう楽しんでいいか分からない場所</mark>だと私は思っています。</span></p>
+<p class="say other"><b>Kyoko</b><span>私自身もお客様を秋葉原に連れて行ったことがありますが、店の数が多くて、どこへ入ればいいのか分かりませんでした。入ってみると何かすごいのは伝わるのに、なぜそうなっているのかまでは分からないんです。</span></p>
+<p class="say other"><b>Kyoko</b><span>東京の滞在では、<mark>寺社仏閣はもう十分だから、東京ならではのカルチャーをやりたい</mark>、というのがご希望です。原宿のような場所と並べて、秋葉原のようなサブカルチャーの街も見てみたい、という流れでした。ただ、先ほど言ったとおり、自分たちで行って、すぐに楽しめる場所ではないと思います。</span></p>
+<p class="say me"><b>ユウキ</b><span>確かに、どこへ行けばいいのか、なぜこうなっているのか、入っても分かりにくいですよね。そこを<mark>背景ごと話すと喜んでもらえることが多い</mark>ので、今回の方にはたぶん合うと思います。</span></p>
+<p class="say me"><b>ユウキ</b><span>質問が多くてすみません。整理すると、ご家族5名のプライベートツアーで、好きな作品があるというより、<mark>この街の文化の背景を見せてほしい</mark>、ということですね。背景はかなり理解できました。</span></p>
+<h2>2. 家族の関心と、見せ方</h2>
+<p class="lead">アニメ好きの家族ではない。だから「なぜこうなっているか」を伝える方向で組む。</p>
+<p class="say other"><b>Kyoko</b><span>この家族にはアニメやポケモンの好みは全くありません。聞いてみたら「ない」と言われました。ただお父さんは、学ぶ予定が入ったことがきっかけで、漫画を手に取るかもしれないね、と話していました。教育にとても熱心で、子どもたちにいろんな経験をさせています。<mark>お金や経済の巡り、アイドルのような文化が日本の大きな産業を担っている話をすれば、すごく喜ぶと思います。</mark></span></p>
+<p class="say me"><b>ユウキ</b><span>秋葉原のお客さんは、大きく二つに分かれます。推しの作品やゲームがすでにある人向けのコースと、僕と同じ世代や少し上に向けた、子どもの頃に遊んだものを回るレトロなコースです。今回はそのどちらでもなく、初めての秋葉原文化を紹介する形になりますね。ここまでの認識で合っていますか。</span></p>
+<p class="say other"><b>Kyoko</b><span>合っています。</span></p>
+<p class="say me"><b>ユウキ</b><span>分かりました。<mark>レトロゲームのお店やガチャのお店を回りながら、なぜこういう街になったのかを話します</mark>。それから、池袋の漫画道場のようなところも参考になります。プロの漫画家が通訳つきで漫画の描き方を教えてくれる体験で、予約は必要ですが取りにくくはありません。僕の秋葉原ツアーの前後に入れる客も多いですし、池袋は僕も案内できます。リンクは後で送ります。</span></p>
+<p class="say other"><b>Kyoko</b><span>それはすごくいいかもしれません。<mark>体験だらけじゃなくて、他の国ではできないことをやりたい。その気持ちが強いんです。</mark>ヨーロッパでもアメリカでもできないことを、日本に来たのだからやりたい、と。</span></p>
+<p class="say me"><b>ユウキ</b><span>ほかには、地元の方の家の台所スタジオで、製麺から手がけてラーメンを作る体験もあります。普段は英語の先生をしている女性がやっていて、最近はインフルエンサーにも取り上げられています。</span></p>
+<p class="say me"><b>ユウキ</b><span>漫画の描き方を教える場所は、日本の人より海外の人からの需要のほうが高いんです。プロが本気で教えてくれる、いわゆるガチの内容です。</span></p>
+<p class="say other"><b>Kyoko</b><span>ただ、TOKIが出す体験は有名店や職人さんのような、質の担保がいるものが中心で、とても限定的な作りにしています。アニメ関係のものは、その物差しで最初から旅程に入れるのは難しいんです。ですから、ユウキさんの秋葉原のあとに池袋のこんな体験もありますよ、と勧めて、ご本人たちが行く、という形ならあり得ます。</span></p>
+<p class="say other"><b>Kyoko</b><span>夕食も同じ考えです。予約せず、自分たちで勝手に入るほうがいい、という感じなんです。<mark>子どもたちが飽きずに食べられるかどうかが一番大事</mark>で、お寿司から天ぷらまで、いろいろ食べさせたいという気持ちはあります。</span></p>
+<p class="say me"><b>ユウキ</b><span>僕の側から言えば、<mark>無理に詰め込まず、興味が出たらその場で次を足せる余白があるほうが、うまくいきます</mark>。</span></p>
+<h2>3. メイドカフェと昼食</h2>
+<p class="lead">子どもが引いてしまうことがある。事前に説明し、選んでもらい、代案も用意する。</p>
+<p class="say me"><b>ユウキ</b><span>メイドカフェについては正直、心配があります。10代半ばの子でも固まってしまい、楽しめないまま帰ろうとする場面を何度も見てきました。at-home cafeやmaidreaminのような大手で、英語対応もできている店でも同じです。小学生から中学生くらいのお子さんは、引いてしまうかもしれません。</span></p>
+<p class="say other"><b>Kyoko</b><span>私は「行ったほうがいい」と伝えてあります。動物カフェには向こうから行きたいと言ってきたので、メイドカフェもテーマパークのようなものだ、とお父さんには話しました。そこでお茶をするくらいならいいのでは、と。</span></p>
+<p class="say me"><b>ユウキ</b><span>僕もそう伝えたいんですが、国によっては、女の子にそういうことをさせて、お酒も出している、虐待ではないのか、と受け取る人もいます。この家族の国なら大丈夫だと思いますが、説明が面倒になることもあります。似たものが他にないので、アメリカならフーターズのようなものだ、と言うしかないんですよね。</span></p>
+<p class="say other"><b>Kyoko</b><span>胸は出ていませんけどね。休憩所として、<mark>説明した上で選んでもらえばいい</mark>と思います。「ここにはこういう場所があって、日本ではすごく知られている。コンセプトが合わない人もいる。行きたいか、行きたくないか」と聞けば、すぐ答えが出ると思います。</span></p>
+<p class="say me"><b>ユウキ</b><span>分かりました。皆さんが行くと言えば入りますし、ご飯を食べるだけでもいいんです。<mark>直前に子どもが嫌がったら、普通のレストランでオムライスを食べる案に切り替えます</mark>。事前にルートごとの選択肢を並べたページを作って送るのも、一つの手ですね。</span></p>
+<p class="say other"><b>Kyoko</b><span>食べられないものやアレルギーはありません。ただ、子どもたちが飽きずに食事を楽しめることが、家族にとってはとても大事です。ラーメンは滞在中に何度か食べる予定なので、そこは外してもらって大丈夫です。ほかに秋葉原らしい昼食の場所はありますか。</span></p>
+<p class="say me"><b>ユウキ</b><span>秋葉原はカレー文化が強いです。<mark>神田エリアにはカレーグランプリもあります。</mark></span></p>
+<p class="say me"><b>ユウキ</b><span>ケチャップで絵を描くのはメイドカフェですが、オムライス自体も秋葉原らしい料理です。ただ、お子さんがいる家族なら、まずは普通の洋食店のオムライスで十分に楽しめると思います。</span></p>
+<p class="say other"><b>Kyoko</b><span>私が好きなのは神保町のボンディです。</span></p>
+<p class="say me"><b>ユウキ</b><span>いいですね。あとは馬肉なら、だんだんという餃子のチェーンが入りやすいです。万世橋のあたりには、肉の万世の名残でカツサンドの自販機もあります。歩きながら食べられます。</span></p>
+<p class="say other"><b>Kyoko</b><span><mark>自販機は、子どもたちが絶対に興味を持つ</mark>と思います。メイドカフェは、説明してみて嫌だと言われたらスキップで構いません。</span></p>
+<h2>4. 連絡と写真</h2>
+<p class="lead">客の連絡先は共有されない。連絡は手配担当を通し、写真は撮って後で渡す。</p>
+<p class="say me"><b>ユウキ</b><span>当日の前後に、ほかの予約は入っていますか。楽しみすぎて時間がのびることがあるので、確認したいです。</span></p>
+<p class="say other"><b>Kyoko</b><span>この日は前に予定はありません。秋葉原を回ったあと、午後は自分たちで動きたいそうです。半日以上ガイドがつくのは嫌がります。忙しい方たちなので、ホテルに戻って仕事をするかもしれません。夜には別の予約があります。</span></p>
+<p class="say me"><b>ユウキ</b><span>長すぎると疲れて飽きてしまいますし、ホテルに戻りたくなりますからね。ところで、お客様の連絡先は、前日や1週間前に共有してもらえるとありがたいのですが、今回はどうでしょう。</span></p>
+<p class="say other"><b>Aska</b><span>今回は私が迎えに行くので、<mark>お客様との直接のやり取りはおそらくありません</mark>。TOKIのお客様はそういう方がほとんどで、担当者でも事前に連絡が取れず、当日会うまで分からないことのほうが普通です。</span></p>
+<p class="say other"><b>Kyoko</b><span>私は滞在中、WhatsAppでコンシェルジュのように連絡を取りますが、ミーティングの招待を勝手に送っても、返事が来るのは3回に1回くらいです。連絡先を共有してよいか、お客様に確認が要る場面もあります。<mark>ツアーの様子をインスタに上げるのは、基本的にしない方向でお願いします。</mark></span></p>
+<p class="say me"><b>ユウキ</b><span>普段なら、ツアーの内容をSNSに上げてよいかも聞くところですが、今回は断られそうなお客さんですね。</span></p>
+<p class="say me"><b>ユウキ</b><span>分かりました。写真を撮って渡すのは構いませんか。</span></p>
+<p class="say other"><b>Kyoko</b><span>写真を共有してもらえるのは、すごく喜ぶと思います。</span></p>
+<p class="say me"><b>ユウキ</b><span>分かりました。<mark>上げずに、お客さんにだけ渡す形</mark>ですね。</span></p>
+<p class="say me"><b>ユウキ</b><span>いつも、たくさん撮って後で渡しています。最近はAIの進歩がすごくて、<mark>どこで撮ったか、歩いたルートも見られる形</mark>にできます。「こんなことをしたね」と思い出になるので、お客様には好評です。</span></p>
+<h2>5. 自己紹介と、これから</h2>
+<p class="lead">英語での自己紹介、請求の流れ、ガイドフィーの考え方、今後の窓口を確認した。</p>
+<p class="say other"><b>Aska</b><span>ガイドの方にはいつも、お客様に会ったときの自己紹介を英語で簡単にお願いしているんです。今、Askaをお客様だと思ってやっていただけますか。</span></p>
+<p class="say me"><b>ユウキ</b><span>英語で、友達のように親しみやすく話すことを心がけています、と自己紹介をしてみせた。その後にKyokoさんから、なぜ英語を話せるのか、出身はどこかと聞かれて、カナダのバンクーバーに2年半留学したこと、出身は埼玉であることを答えた。</span></p>
+<p class="say me"><b>ユウキ</b><span>もともと人と話すのが苦手で、公務員になりたかったのに、面接が通らないほどでした。親の勧めで留学し、そこでオタクであることを隠さずに出したら、現地のオタクと仲良くなれました。帰国後に日本へ来た彼らを秋葉原などへ案内して喜ばれ、友達に仕事にしたらと言われたのがガイドを始めたきっかけです。日本語講師やPodcastの番組もやっています。<mark>口下手だった自分が、話すことを仕事にするまでの話</mark>を、お客様にもよくします。</span></p>
+<p class="say other"><b>Kyoko</b><span>その話、私も読んだ気がします。ユウキさんが最近インタビューを受けた記事に、オタクのガイドツアーで検索して引っかかったのかもしれません。</span></p>
+<p class="say other"><b>Aska</b><span>ありがとうございます。進め方は、<mark>ツアーのあとにTOKIへ請求書を出していただく形</mark>になります。長くお付き合いできればと思います。</span></p>
+<p class="say me"><b>ユウキ</b><span>請求書は出します。今後もぜひ、お客さんを紹介してください。</span></p>
+<p class="say other"><b>Kyoko</b><span>もう一つ、プリクラを撮りたいという話があります。新宿でも撮れるかもしれませんが、どこまで歩けるか分かりません。</span></p>
+<p class="say me"><b>ユウキ</b><span>僕は初日ツアーのような形で、<mark>プリクラと交通機関の乗り方をセットにして</mark>、ホテルまで案内することもあります。早いうちに電車に慣れてもらうのは、いい気がします。秋葉原だけでなく、原宿や新宿も案内できます。</span></p>
+<p class="say me"><b>ユウキ</b><span>実際に一度歩いてもらうと、流れが分かりやすいので、お二人にも体験してもらいたいくらいです。</span></p>
+<p class="say other"><b>Kyoko</b><span><mark>初日にやってしまおうかな</mark>。どうせ渋谷にも行くので。</span></p>
+<p class="say other"><b>Aska</b><span>ガイドフィーには、TOKIの基準があります。ただ、秋葉原ツアーや渋谷原宿ツアーのように、普通のガイドには難しいコンテンツなら、<mark>基準とは別の額でお支払いできる</mark>と思います。</span></p>
+<p class="say me"><b>ユウキ</b><span>価格次第では、基準の中で動くのも構いません。</span></p>
+<p class="say other"><b>Aska</b><span>今回は、私がお客様をホテルでピックアップしてお連れしますので、そのまま同行させていただいてもよいでしょうか。</span></p>
+<p class="say me"><b>ユウキ</b><span>ぜひ。秋葉原は駅周辺に、観光客に高く売る店が多いんです。<mark>お金があるからといって、何でも買うわけではない</mark>ので、僕はいつも、<mark>最初に買おうとせず、もっと安い店を見てから決めましょう</mark>と伝えています。</span></p>
+<p class="say other"><b>Kyoko</b><span>それは、ご本人にも言ってあげてください。そういうの、好きなタイプだと思います。</span></p>
+<p class="say other"><b>Kyoko</b><span>築地でも、いい場所にある店は高いですよね。思った以上だったと感じたことがあります。</span></p>
+<p class="say me"><b>ユウキ</b><span>外国人向けの価格のところは、1万円のどんぶりが出たりしますからね。観光地の値付けは、本当にびっくりしますよね。</span></p>
+<p class="say other"><b>Aska</b><span>今後のやり取りは私がメールで行います。<mark>当日に迷ったときの連絡は、私のWhatsAppにお願いします</mark>。番号はまだお渡ししていないので、後ほどお送りします。</span></p>
+<p class="say other"><b>Kyoko</b><span>今日はすごく楽しかったです。ありがとうございました。</span></p>
+<p class="say me"><b>ユウキ</b><span>都内にいますので、対面でも、いつでも大丈夫です。分かりました。では、楽しみにしております。ありがとうございました。</span></p>
+<p class="note">この記録は、Google Meetの自動字幕をもとに、言い間違いや重複を整えて読みやすくしたものです。聞き取りの誤りがあれば、お知らせください。</p>
+</div>
+
+</body></html>
